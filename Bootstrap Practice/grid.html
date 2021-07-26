@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <title></title>
+    <style media="screen">
+      .boxy{
+        background-color: #b3ddff;
+        border: 2px solid black;
+      }
+      .doxy{
+        background-color: #b3ccff;
+        border: 2px solid black;
+      }
+      .poxy{
+        background-color: #b3bbff;
+        border: 2px solid black;
+      }
+    </style>
+
+  </head>
+  <body>
+    <!-- get details of grid system of BootStrap here in the below link
+    https://getbootstrap.com/docs/3.4/examples/grid/-->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 boxy">large coloumn 4</div>
+          <div class="col-lg-4 doxy">large coloumn 4</div>
+          <div class="col-lg-4 poxy">large coloumn 4</div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 boxy">medium coloumn 6</div>
+          <div class="col-md-6 poxy">medium coloumn 6</div>
+        </div>
+      </div>
+
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6 boxy">XS coloumn 6</div>
+          <div class="col-xs-6 poxy">XS coloumn 6</div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6 boxy">One</div>
+          <div class="col-lg-3 col-sm-6 doxy">Two</div>
+          <div class="col-lg-3 col-sm-6 poxy">Three</div>
+          <div class="col-lg-3 col-sm-6 boxy">Four</div>
+        </div>
+      </div>
+<!-- Nested rows   -->
+
+<div class="row">
+  <div class="col-lg-6 boxy">
+    <div class="row">
+        <div class="col-lg-6 boxy">Nest One</div>
+        <div class="col-lg-6 boxy">Nest Two</div>
+    </div>
+  </div>
+  <div class="col-lg-6 doxy">level-2</div>
+
+</div>
+
+
+
+
+
+
+
+
+  </body>
+</html>
